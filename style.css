@@ -1,6 +1,64 @@
 img{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  height: 25%;
+  width: 25%;
+  /* background-color: green; */
+}
+.me{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left ;
+  padding: 100px;
+  /* background-color: orange; */
+}
+
+.me1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 63px;
+  /* background-color: azure; */
+}
+
+.me1 button{
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.me1 .social {
+  padding: 8px;
+  margin: 8px;
+}
+
+.me1 .social a{
+  padding: 1px;
+  margin: 1px;
+}
+
+.me1 .social svg{
+  height: 22px;
+  width: 22px;
+  color: black;
+  /* background-color: blue; */
+}
+
+.about{
+  padding: 10px;
+  margin: 10px;
+}
+
+.card{
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.card svg{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
