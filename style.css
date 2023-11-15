@@ -1,15 +1,13 @@
 img{
   height: 25%;
   width: 25%;
-  /* background-color: green; */
 }
 .me{
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items: left ;
-  padding: 100px;
-  /* background-color: orange; */
+  padding: 65px;
 }
 
 .me1{
@@ -17,8 +15,7 @@ img{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 63px;
-  /* background-color: azure; */
+  padding: 25px;
 }
 
 .me1 button{
@@ -29,6 +26,9 @@ img{
 .me1 .social {
   padding: 8px;
   margin: 8px;
+  height: auto;
+  width: auto;
+  color: black;
 }
 
 .me1 .social a{
@@ -36,11 +36,9 @@ img{
   margin: 1px;
 }
 
-.me1 .social svg{
-  height: 22px;
-  width: 22px;
+.me1 .social i{
+  font-size: larger;
   color: black;
-  /* background-color: blue; */
 }
 
 .about{
@@ -50,15 +48,16 @@ img{
 
 .card{
   padding: 10px;
-  margin-bottom: 15px;
+  margin: 10px;
 }
 
-.card svg{
-  height: 40px;
-  width: 40px;
+.projects{
+  padding: 10px;
+  margin: 10px;
+}
+
+.pro{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  
 }
